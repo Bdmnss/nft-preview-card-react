@@ -19,6 +19,10 @@
   margin-bottom: 16px;
 }
 
+.text-div h1:hover {
+  color: #00fff8;
+}
+
 .text-div p {
   font-size: 1.8rem;
   color: #8bacd9;
@@ -72,4 +76,8 @@
 
 .creator-div span {
   color: #ffffff;
+}
+
+.creator-div span:hover {
+  color: #00fff8;
 }
