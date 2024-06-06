@@ -1,0 +1,75 @@
+.card {
+  background-color: #15263f;
+  width: 35rem;
+  padding: 2.4rem 2.4rem 3.2rem;
+  box-shadow: 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 1.5rem;
+}
+
+.hero-img {
+  width: 100%;
+  border-radius: 0.8rem;
+  margin-bottom: 2.4rem;
+}
+
+.text-div h1 {
+  font-size: 2.2rem;
+  color: #ffffff;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.text-div p {
+  font-size: 1.8rem;
+  color: #8bacd9;
+  font-weight: 300;
+  margin-bottom: 2.4rem;
+  line-height: 1.44;
+}
+
+.ethereum-options-div {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.1rem solid #2e405a;
+  margin-bottom: 2.2rem;
+}
+
+.ethereum-options-div div {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  margin-bottom: 2.4rem;
+}
+
+.ethereum-div p {
+  font-size: 1.6rem;
+  color: #00fff8;
+  font-weight: 600;
+}
+
+.clock-div {
+  font-size: 1.6rem;
+  color: #8bacd9;
+}
+
+.creator-div {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.creator-div img {
+  width: 3.3rem;
+  height: 3.3rem;
+  border: solid 1px #fff;
+  border-radius: 50%;
+}
+
+.creator-div p {
+  font-size: 1.6rem;
+  color: #8bacd9;
+}
+
+.creator-div span {
+  color: #ffffff;
+}
