@@ -1,11 +1,35 @@
-import './App.css'
+import "./App.css";
+import HeroImg from "/images/image-equilibrium.jpg";
+import EthereumIcon from "/images/icon-ethereum.svg";
+import ClockIcon from "/images/icon-clock.svg";
+import AvatarImg from "/images/image-avatar.png"
 
 function App() {
   return (
     <>
-      
+      <div className="card">
+        <img src={HeroImg} alt="equilibrium image" />
+        <div className="text-div">
+          <p>Equilibrium #3429</p>
+          <p>Our Equilibrium collection promotes balance and calm.</p>
+        </div>
+        <div className="ethereum-div">
+          <div>
+            <img src={EthereumIcon} alt="ethereum icon" />
+            <p>0.041 ETH</p>
+          </div>
+          <div>
+            <img src={ClockIcon} alt="clock icon" />
+            <p>3 days left</p>
+          </div>
+        </div>
+        <div className="creator div">
+          <img src={AvatarImg} alt="avatar" />
+          <p>Creation of <span>Jules Wyvern</span></p>
+        </div>
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
